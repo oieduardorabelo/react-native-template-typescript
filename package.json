@@ -3,6 +3,7 @@
     "version": "0.0.1",
     "description": "Clean and minimalist React Native template for a quick start with TypeScript.",
     "scripts": {
+        "postinstall": "node setup.js",
         "prepublishOnly": "npm --no-git-tag-version version from-git"
     },
     "repository": {
